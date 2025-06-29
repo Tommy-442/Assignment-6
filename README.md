@@ -20,5 +20,12 @@ Extra commas and special characters in numeric fields.
 Inconsistent volume notation ("M", "B", empty).
 Some rows failing date parsing, leading to empty datasets if not carefully handled.
 Ensuring that no accidental conversion of columns to lists occurred, which caused errors with Pandas string functions (.str, .astype).
+## Reporting & SQL Queries
+I wrote several SQL queries to generate key insights:
+1. Highest daily return
+2. AVG monthly close
+3. Montly volability trend(standard deviation of daily returns)
+4. 5 lowest drawdown period
+5. Last 30 day average return
 
 
